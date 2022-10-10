@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 100px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#startG {
+    display: flex;
+    margin: auto;
+    background-color: aquamarine;
+    height: 60px;
+    width: 300px;
+}
+
+.test {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-color: gray;
+    border-style: solid;
+}
+
+.PlayerSQ {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+.setUpO {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+/* #PA1 {
+    background-color: red;
+} */
