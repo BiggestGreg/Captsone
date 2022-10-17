@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+
+.badGuyOcean {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.enmySquare {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+/* .placing {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    opacity: 100%;
+    align-self: center;
+} */
+
+.divider {
+    height: 25px;
+    background-color: slategrey;
+}
+
+.goodGuyOcean {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.goodSquare {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-color: lightgray;
+    border-style: solid;
+}
